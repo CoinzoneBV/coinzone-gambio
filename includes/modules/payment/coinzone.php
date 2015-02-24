@@ -101,7 +101,6 @@ class Coinzone
     function payment_action()
     {
         global $order, $insert_id;
-        echo "<pre>";
 
         $sqlClientCode = xtc_db_query("SELECT configuration_value
                                            FROM " . TABLE_CONFIGURATION . "
